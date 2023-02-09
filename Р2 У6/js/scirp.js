@@ -23,8 +23,30 @@
 
 const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
-const user = 'Maxim';
+// const user = 'Maxim';
 
-alert(`Привет, ${user}`);
+// alert(`Привет, ${user}`);
+
+// //////////////////////////////
+
+// 2.14
+
+let incr = 10,
+    decr = 10;
+
+// incr++;
+// decr--;
+
+console.log(++incr);
+console.log(--decr);
+
+console.log(5%2);
+
+console.log(4*2 === 8);
+
+const isChecked = true,
+        isClosed = false;
+
+console.log(isChecked || isClosed);
